@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Whiteboard</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+</body>
+<div class="gcse-search"></div>
+
+    <div class="container">
+        <div class="canvas-container">
+            <canvas id="whiteboard"></canvas>
+            
+            <!-- Toolbar inside whiteboard -->
+            <div class="toolbar">
+                <button id="pen-tool">🖊</button>
+                <button id="erase-tool">🧹</button>
+                <button id="color-picker">🎨</button>
+                <button id="shapes-tool">📐</button>
+                <button id="undo">↩</button>
+                <button id="redo">↪</button>
+                <button id="clear-board">🗑</button>
+                <button id="start-speaking">🎤</button>
+                <button id="save">💾</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="text-image-container">
+        <div id="text-container"></div>
+        <!-- Educational Images Section -->
+        <div class="section">
+            <div class="section-header">
+                <button id="clearImages" class="clear-button">Clear Images</button>
+                <div id="loader" class="loader hidden"></div>
+            </div>
+            <div id="imageGallery" class="image-gallery"></div>
+        </div>
+    </div>
+    
+    <script src="./src/script/index.js  "></script>
+</body>
+</html>
